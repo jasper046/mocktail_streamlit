@@ -1,8 +1,11 @@
 import streamlit as st
+import utils as ut
 import time
 import numpy as np
 
-st.set_page_config(page_title="Plotting Demo", page_icon="📈")
+ut.apply_base_style()
+
+# st.set_page_config(page_title="Plotting Demo", page_icon="📈")
 
 st.markdown("# Plotting Demo")
 st.sidebar.header("Plotting Demo")

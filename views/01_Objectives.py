@@ -1,6 +1,9 @@
 import streamlit as st
+import utils as ut
 
-st.set_page_config(page_title="Objectives", page_icon=":material/checklist:")
+ut.apply_base_style()
+
+# st.set_page_config(page_title="Objectives", page_icon=":material/checklist:")
 
 st.markdown("# Objectives :material/checklist:")
 st.sidebar.header("Objectives")
