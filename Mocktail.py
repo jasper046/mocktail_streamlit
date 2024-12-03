@@ -19,6 +19,11 @@ project_objectives_page = st.Page(
     icon=":material/bar_chart:",
 )
 project_2_page = st.Page(
+    "views/02_Sense-o-meter.py",
+    title="Sense-o-meter",
+    icon=":material/smart_toy:",
+)
+project_3_page = st.Page(
     "views/99_some_chart.py",
     title="Chart Example",
     icon=":material/smart_toy:",
