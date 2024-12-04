@@ -30,13 +30,13 @@ project_3_page = st.Page(
 )
 
 # --- NAVIGATION SETUP [WITHOUT SECTIONS] ---
-pg = st.navigation(pages=[project_objectives_page, project_2_page])
+pg = st.navigation(pages=[project_objectives_page, project_2_page, project_3_page])
 
 # --- NAVIGATION SETUP [WITH SECTIONS]---
 # pg = st.navigation(
 #     {
 #         "Info": [about_page],
-#         "Projects": [project_1_page, project_2_page],
+#         "Projects": [project_1_page, project_2_page, project_3_page],
 #     }
 # )
 
