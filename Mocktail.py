@@ -3,13 +3,6 @@ import utils as ut
 
 ut.apply_base_style()
 
-# st.set_page_config(
-#     page_title="Mocktail Challenge",
-#     page_icon=":material/local_bar:",
-# )
-#st.sidebar.success("Select a page above.")
-
-
 st.header("Sensolus Mocktail Challenge :material/local_bar: Team Fun 1")
 
 # --- PAGE SETUP ---
@@ -30,7 +23,7 @@ project_3_page = st.Page(
 )
 
 # --- NAVIGATION SETUP [WITHOUT SECTIONS] ---
-pg = st.navigation(pages=[project_objectives_page, project_2_page, project_3_page])
+pg = st.navigation(pages=[project_objectives_page, project_2_page])
 
 # --- NAVIGATION SETUP [WITH SECTIONS]---
 # pg = st.navigation(
