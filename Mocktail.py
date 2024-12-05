@@ -12,18 +12,23 @@ project_objectives_page = st.Page(
     icon=":material/bar_chart:",
 )
 project_2_page = st.Page(
-    "views/02_Sense-o-meter.py",
-    title="Sense-o-meter",
-    icon=":material/smart_toy:",
+    "views/02_Product_Requirements.py",
+    title="Product Requirements",
+    icon=":material/checklist:",
 )
 project_3_page = st.Page(
-    "views/99_some_chart.py",
-    title="Chart Example",
+    "views/03_Component_Selection.py",
+    title="Component Selection",
+    icon=":material/checklist:",
+)
+project_4_page = st.Page(
+    "views/04_Sense-o-meter.py",
+    title="Sense-o-meter",
     icon=":material/smart_toy:",
 )
 
 # --- NAVIGATION SETUP [WITHOUT SECTIONS] ---
-pg = st.navigation(pages=[project_objectives_page, project_2_page])
+pg = st.navigation(pages=[project_objectives_page, project_2_page, project_3_page, project_4_page])
 
 # --- NAVIGATION SETUP [WITH SECTIONS]---
 # pg = st.navigation(
