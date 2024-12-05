@@ -53,3 +53,7 @@ Mocktail components:
     """
 )
 
+st.image("images/fizzy_powder.png", caption="attempt of making homebrew fizzy powder")
+
+st.image("images/umami_syrup.png", caption="Fake caviar production")
+
