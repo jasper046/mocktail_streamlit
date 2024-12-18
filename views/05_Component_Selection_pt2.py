@@ -27,13 +27,12 @@ Fizzy powder replacement:
 \n
 Pandan syrup replacement:
 - Inspired by Coquito
+- Replace pandan syrup with Coquito tea (fragrant)
 """)
 st.image("images/coquito.png", caption="Coquito")
 
 st.write(
     """
--> Replace pandan syrup with Coquito tea:
-- Similar
 
 \n
 Umami syrup X-mas patch:
