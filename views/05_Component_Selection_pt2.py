@@ -12,7 +12,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.markdown("# Final")
+st.markdown("# Final  :material/forest:")
 st.sidebar.header("")
 st.write(
     """
@@ -25,7 +25,7 @@ Fizzy powder replacement:
 - Replace with powder sugar
 
 \n
-Pandan syrup:
+Pandan syrup replacement:
 - Inspired by Coquito
 """)
 st.image("images/coquito.png", caption="Coquito")
@@ -36,11 +36,11 @@ st.write(
 - Similar
 
 \n
-Umami syrup:
+Umami syrup X-mas patch:
 - Replace ginger/lemon with cherry/vanilla
 
 \n
-Fake caviar:
+Fake caviar replacement:
 - Replace with syrupy cherry
 """)
 st.image("images/xmas_syrup.png", caption="X-mas syrup production")

@@ -3,7 +3,7 @@ import utils as ut
 
 ut.apply_base_style()
 
-st.markdown("# Component Selection")
+st.markdown("# Component Selection :material/checklist:")
 st.sidebar.header("")
 st.write(
     """

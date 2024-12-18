@@ -41,10 +41,10 @@ def radar_chart(us, cm, ps, ci):
 
 ut.apply_base_style()
 
-st.markdown("# Sense-o-meter")
+st.markdown("# Sense-o-meter :material/smart_toy:")
 st.sidebar.header('Ingredient Selector')
 st.write(
-    """Tis model uses HI to optimize mocktail ingedients \n \n"""
+    """This model uses HI to optimize mocktail ingedients \n \n"""
 )
 
 amount_umamisyrup   = st.sidebar.slider('# Umami Syrup',  min_value = 0, max_value = 100, value = 0)

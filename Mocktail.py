@@ -3,7 +3,7 @@ import utils as ut
 
 ut.apply_base_style()
 
-st.header("Sensolus Mocktail Challenge :material/local_bar: Team Fun")
+st.header("Sensolus Mocktail Challenge :material/local_bar: Team Fun :material/forest:")
 
 # --- PAGE SETUP ---
 project_objectives_page = st.Page(
