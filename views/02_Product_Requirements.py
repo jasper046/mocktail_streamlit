@@ -3,8 +3,6 @@ import utils as ut
 
 ut.apply_base_style()
 
-# st.set_page_config(page_title="Objectives", page_icon=":material/checklist:")
-
 st.markdown("# Product Requirements :material/checklist:")
 st.sidebar.header("")
 st.write(
